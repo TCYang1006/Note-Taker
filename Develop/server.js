@@ -61,7 +61,7 @@ app.get('/api/notes/:id', (req, res) => {
     return res.json(false);
 });
 
-function deleteNote(id, notesArray) {
+deleteNote(id, notesArray => {
     for (let i = 0; i < notesArray.length; i++) {
         let note = notesArray[i];
 
@@ -75,7 +75,7 @@ function deleteNote(id, notesArray) {
             break;
         }
     }
-}
+})
 
 app.delete('/api/notes/:id', (req, res) => {
     deleteNote(req.params.id, notes);
