@@ -5,7 +5,9 @@ The MIT License
 [![License: ODbL](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description: 
-This project is a note taking application.  The application allows the user to record/create, update and delete notes.  
+This project is a note taking application.  The application allows the user to record/create, update and delete notes. 
+<img width="1708" alt="overallScreenShot" src="https://user-images.githubusercontent.com/88170109/149233969-31122090-c0cb-42ee-a2b1-2a08ede9c0b2.png">
+
 
 ### Contents
 1.  [Installation](#installation)
